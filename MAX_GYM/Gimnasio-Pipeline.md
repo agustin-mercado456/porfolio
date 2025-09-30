@@ -31,9 +31,6 @@ Este contexto motivó la necesidad de desarrollar un **pipeline de datos** que p
 # 3. Descripción de los Datos
 
 El gimnasio de estudio posee una base de datos relacional centralizada gestionada por el motor **mariadb** que posee **43 tablas**. Sin embargo,  dicha base de datos no fue diseñada de  con principios adecuados de normalización, Por lo tanto no hay relaciones explicitas en ninguna de las tablas, en consecuencia se invierto mucho tiempo en descubrirlas y en reuniones con el dueño del negocio para comprender el significado de cada tablas, sus columnas, y las relaciones lógicas implícitas entre ellas.
-# 4. Arquitectura del pipeline
-
-![[arquitectura.png]]
 
 
 
