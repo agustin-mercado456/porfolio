@@ -8,7 +8,7 @@ Este repositorio contiene **resúmenes, resultados** de mis proyectos de datos, 
 
 ## 🚀 Proyectos destacados
 
-### 1. Pipeline de Datos MAX_GYM
+### 1. Pipeline de Datos Gimnasio
 - **Tecnologías:** Dagster, dbt, PostgreSQL, Python
 - **Descripción:** Construcción de pipelines ELT para procesar datos de ventas y clientes de un gimnasio.  
 - **Resultados:**  
