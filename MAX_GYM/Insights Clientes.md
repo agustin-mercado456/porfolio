@@ -45,7 +45,10 @@ los datos de abandono se distribuyen de la siguiente manera:
 | ganado_2024    | 428     | 252             | 137            | 34              | 5       |
 | no_volvio_2023 | 736     | 455             | 311            | 51              | 4       |
 | perdido_2025   | 296     | 228             | 153            | 20              | 0       |
+
+
 en términos porcentuales:
+
 
 | segmento         | Jóvenes | Adultos Jóvenes | Adultos Medios | Adultos Mayores | Seniors | Total % fila |
 | ---------------- | ------- | --------------- | -------------- | --------------- | ------- | ------------ |
@@ -124,11 +127,10 @@ Considerando que cada pase al gimnasio para realizar una actividad tiene un valo
 
 La pérdida estimada se calcula mediante la siguiente fórmula:
 
-$$
 
-\text{Perdida estimada por abandono} = a \cdot \sum_{i=1}^n p \cdot c_i
+Perdida estimada por abandono = a * sum(p * c_i) para i = 1..n
 
-$$
+
 
 donde:
 
@@ -172,7 +174,10 @@ Mediante el análisis de datos se detectó que, hasta el **17/07/2025**, un tota
 | `ganado_2025`      | Clientes que asistieron solo en 2025               | 582      |
 | `ganado_2024_2025` | Clientes ganados en 2024 y que siguen en 2025      | 418      |
 | `intermitente`     | Clientes presentes en 2023 y 2025, pero no en 2024 | 191      |
+
+
 los datos se distribuyen de la siguiente manera:
+
 
 | segmento         | Jóvenes | Adultos Jóvenes | Adultos Medios | Adultos Mayores | Seniors |
 | ---------------- | ------- | --------------- | -------------- | --------------- | ------- |
@@ -180,7 +185,10 @@ los datos se distribuyen de la siguiente manera:
 | ganado_2024_2025 | 205     | 115             | 78             | 15              | 5       |
 | ganado_2025      | 277     | 178             | 101            | 21              | 5       |
 | intermitente     | 104     | 54              | 26             | 7               | 0       |
+
+
 en términos porcentuales:
+
 
 | segmento         | Jóvenes | Adultos Jóvenes | Adultos Medios | Adultos Mayores | Seniors | Total_C |
 | ---------------- | ------- | --------------- | -------------- | --------------- | ------- | ------- |
@@ -189,6 +197,7 @@ en términos porcentuales:
 | ganado_2025      | 11.79   | 7.58            | 4.30           | 0.89            | 0.21    | 24.78   |
 | intermitente     | 4.43    | 2.30            | 1.11           | 0.30            | 0.00    | 8.13    |
 | **Total_F**      | 42.57   | 31.97           | 20.43          | 4.47            | 0.55    | 100.00  |
+
 
 ### Observaciones por segmento
 
