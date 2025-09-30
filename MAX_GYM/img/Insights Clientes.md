@@ -20,7 +20,10 @@ a continuación se presenta el dataset en una tabla para su mayor comprensión:
 | nombre_actividad         | la actividad que fue a realizar                                                  |
 | fecha_registro_cliente   | la fecha en que asistió a realizar la actividad en ele gimnasio                  |
 | hora_registro_cliente    | la hora que asistio                                                              |
+
+
 dicho dataset contiene **264208 registros por 15 variables**
+
 **observaciones:**
 -  No se pudo realizar un **análisis por sexo de los clientes** porque los datos estaban incompletos o contaminados.
 - No se pudo calcular la **distancia de los clientes a cada sucursal** debido a que la información de ubicación no era confiable ni consiste
